@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>  
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 
+</head>
+    
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Webmaster TSA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapter <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="home.html">About TSA</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Officers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CTE <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Curriculum</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Staff</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="homepage.html">Design Brief <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="homepage.html">About Sol Sisters</a></li>
+            <li><a href="merchpage.html">Merch</a></li>
+            <li><a href="showspage.html">Tour Dates</a></li>
+            <li><a href="blogpage.html">Message Board</a></li>
+          </ul>
+        </li>
+        <li><a href="#">References</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<head><center>
+  <title>Add a Topic</title>
+  </center></head>
+  <center>
+  <h2>Add a Comment!</h2> <br>
+  <form method=post action="do_addtopic.php">
+  <p><strong>Your E-Mail Address:</strong><br>
+  <input type="text" name="topic_owner" size=40 maxlength=150>
+  <p><strong>Topic Title:</strong><br>
+  <input type="text" name="topic_title" size=40 maxlength=150>
+  <P><strong>Post Text:</strong><br>
+  <textarea name="post_text" rows=8 cols=40 wrap=virtual></textarea>
+  <P><input type="submit" name="submit" value="Add Topic"></p>
+    </form></center>
+   <body> 
+      <br> <center><h2>Other Comments</h2></center><br>
+<div class="container">
+
+  <div class="media">
+    <div class="media-left">
+      <img src="janedoe.png" class="media-object" style="width:45px">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Thomas R. <small><i>Posted on February 19, 2019</i></small></h4>
+      <p>Omg! I love their outfits, makeup, and hair. Their styles are so unique yet fashionable! I especially liked Tori’s outfit that she wore at her last performance</p>
+      
+      <!-- Nested media object -->
+      <div class="media">
+        <div class="media-left">
+          <img src="johndoe.png" class="media-object" style="width:45px">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Anthony B. <small><i>Posted on February 20, 2019</i></small></h4>
+          <p>Wow! I’m speechless! The Sol Sisters’ last performance was incredible. They all have an amazing stage presence and awesome voices!</p>
+
+          <!-- Nested media object -->
+          <div class="media">
+            <div class="media-left">
+              <img src="janedoe2.png" class="media-object" style="width:45px">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">John J. <small><i>Posted on February 21, 2019</i></small></h4>
+              <p>I completely agree!</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <!-- Nested media object -->
+        <div class="media">
+          <div class="media-left">
+            <img src="janedoe.png" class="media-object" style="width:45px">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Samantha A. <small><i>Posted on February 20, 2019</i></small></h4>
+            <p>I love how the Sol Sisters all have their own styles yet mesh together so well to put on outstanding performances with awesome dance moves and songs!</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Nested media object -->    
+    <div class="media">
+      <div class="media-left">
+        <img src="johndoe.png" class="media-object" style="width:45px">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Jenny O. <small><i>Posted on February 19, 2019</i></small></h4>
+        <p>I love how Hope and Grace are twins but sing together in a band! Most siblings want to get away from each other. It’s so cute how close they are!</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+       
+<br><center><div class="btn-group" role="group" aria-label="Basic example">
+<a href = "merchpage.html" class = "btn btn-primary btn-lg btn-block" role = "button" aria-pressed = "true" >Merch</a>
+<a href = "homepage.html" class = "btn btn-primary btn-lg btn-block" role = "button" aria-pressed = "true" >About Sol Sisters</a>
+<a href = "showspage.html" class = "btn btn-primary btn-lg btn-block" role = "button" aria-pressed = "true" >Tour Dates</a>
+</div></center>
+</body>  
+
+
+
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</html>
+    
