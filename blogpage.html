@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato:300|Oxygen" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Webmaster TSA</a>
+      <a class="navbar-brand" href="index.html">Webmaster TSA <i class="fas fa-sun"></i></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -129,28 +130,7 @@
 
   </div>
 </div>
-<div id="respond">
 
-  <h3>Leave a Comment</h3>
-
-  <form action="post_comment.php" method="post" id="commentform">
-
-    <label for="comment_author" class="required">Your name</label>
-    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
-
-    <label for="email" class="required">Your email;</label>
-    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
-
-    <label for="comment" class="required">Your message</label>
-    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
-
-    <-- comment_post_ID value hard-coded as 1 -->
-    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-    <input name="submit" type="submit" value="Submit comment" />
-
-  </form>
-
-</div>
 <br><center><div class="btn-group" role="group" aria-label="Basic example">
 <a href = "overview.html" class = "btn btn-primary btn-lg btn-block" role = "button" aria-pressed = "true" >Overview</a>
        
@@ -159,8 +139,6 @@
 <a href = "showspage.html" class = "btn btn-primary btn-lg btn-block" role = "button" aria-pressed = "true" >Tour Dates</a>
 </div></center>
 </body>
-
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
