@@ -38,16 +38,16 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapter <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="index.html">About TSA</a></li>
-            <li><a href="#">Activities</a></li>
-            <li><a href="#">Officers</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="officers.html">Officers</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">CTE <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Curriculum</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Staff</a></li>
+            <li><a href="curriculum.html">Curriculum</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="staff.html">Staff</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -70,14 +70,23 @@
   </center></head>
   <center>
   <h2>Add a Comment!</h2> <br>
-  <form method=post action="do_addtopic.php">
+
   <p><strong>Your E-Mail Address:</strong><br>
   <input type="text" name="topic_owner" size=40 maxlength=150>
   <p><strong>Topic Title:</strong><br>
   <input type="text" name="topic_title" size=40 maxlength=150>
   <P><strong>Post Text:</strong><br>
   <textarea name="post_text" rows=8 cols=40 wrap=virtual></textarea>
-  <P><input type="submit" name="submit" value="Submit"></p>
+<br>
+      <button onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thank you for submitting a comment!"
+  }
+</script>
     </form></center>
    <body>
       <br> <center><h2>Other Comments</h2></center><br>
