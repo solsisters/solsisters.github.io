@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Sol Sisters</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato:300|Oxygen" rel="stylesheet">
+  <data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Webmaster TSA <i class="fas fa-sun"></i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapter <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">About TSA</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="officers.html">Officers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="cte.html">CTE <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="curriculum.html">Curriculum</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="staff.html">Staff</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="homepage.html">Design Brief <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href = "overview.html"> Overview</a></li>
+            <li><a href="homepage.html">About Sol Sisters</a></li>
+            <li><a href="merchpage.html">Merch</a></li>
+            <li><a href="showspage.html">Tour Dates</a></li>
+            <li><a href="blogpage.html">Message Board</a></li>
+          </ul>
+        </li>
+        <li><a href="#">References</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+<style>
+    nav {font-family: 'Oxygen', sans-serif;; }
+    h3 { font-family:'Oxygen', sans-serif;;}
+    h4 {font-family: 'Lato', sans-serif;}
+    div {font-family: 'Oxygen', sans-serif;}
+
+
+
+body {
+
+  font-family: Arial;
+
+  font-size: 17px;
+
+  padding: 8px;
+background-color: lightgoldenrodyellow;
+
+}
+
+
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+
+.row {
+
+  display: -ms-flexbox; /* IE10 */
+
+  display: flex;
+
+  -ms-flex-wrap: wrap; /* IE10 */
+
+  flex-wrap: wrap;
+
+  margin: 0 -16px;
+
+}
+
+
+
+.col-25 {
+
+  -ms-flex: 25%; /* IE10 */
+
+  flex: 25%;
+
+}
+
+
+
+.col-50 {
+
+  -ms-flex: 50%; /* IE10 */
+
+  flex: 50%;
+
+}
+
+
+
+.col-75 {
+
+  -ms-flex: 75%; /* IE10 */
+
+  flex: 75%;
+
+}
+
+
+
+.col-25,
+
+.col-50,
+
+.col-75 {
+
+  padding: 0 16px;
+
+}
+
+
+
+.container {
+
+  background-color: #f2f2f2;
+
+  padding: 5px 20px 15px 20px;
+
+  border: 1px solid lightgrey;
+
+  border-radius: 3px;
+
+}
+
+
+
+input[type=text] {
+
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  padding: 12px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 3px;
+
+}
+
+
+
+label {
+
+  margin-bottom: 10px;
+
+  display: block;
+
+}
+
+
+
+.icon-container {
+
+  margin-bottom: 20px;
+
+  padding: 7px 0;
+
+  font-size: 24px;
+
+}
+
+
+
+.btn {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  padding: 12px;
+
+  margin: 10px 0;
+
+  border: none;
+
+  width: 100%;
+
+  border-radius: 3px;
+
+  cursor: pointer;
+
+  font-size: 17px;
+
+}
+
+
+
+.btn:hover {
+
+  background-color: #45a049;
+
+}
+
+
+
+a {
+
+  color: #2196F3;
+
+}
+
+
+
+hr {
+
+  border: 1px solid lightgrey;
+
+}
+
+
+
+span.price {
+
+  float: right;
+
+  color: grey;
+
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+
+@media (max-width: 800px) {
+
+  .row {
+
+    flex-direction: column-reverse;
+
+  }
+
+  .col-25 {
+
+    margin-bottom: 20px;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="row">
+
+  <div class="col-75">
+
+    <div class="container">
+
+  
+      
+
+        <div class="row">
+
+          <div class="col-50">
+
+            <h3>Billing Address</h3>
+
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+
+            <input type="text" id="fname" name="firstname" >
+
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+
+            <input type="text" id="email" name="email" >
+
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+
+            <input type="text" id="adr" name="address" >
+
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+
+            <input type="text" id="city" name="city" >
+
+
+
+            <div class="row">
+
+              <div class="col-50">
+
+                <label for="state">State</label>
+
+                <input type="text" id="state" name="state" >
+
+              </div>
+
+              <div class="col-50">
+
+                <label for="zip">Zip</label>
+
+                <input type="text" id="zip" name="zip" >
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="col-50">
+
+            <h3>Payment</h3>
+
+            <label for="fname">Accepted Cards</label>
+
+            <div class="icon-container">
+
+              <i class="fab fa-cc-discover"></i>
+
+              <i class="fab fa-cc-amex"></i>
+
+              <i class="fab fa-cc-mastercard"></i>
+
+              <i class="fab fa-cc-visa"></i>
+
+            </div>
+
+            <label for="cname">Name on Card</label>
+
+            <input type="text" id="cname" name="cardname" >
+
+            <label for="ccnum">Credit Card Number</label>
+
+            <input type="text" id="ccnum" name="cardnumber" >
+
+            <label for="expmonth">Exp. Month</label>
+
+            <input type="text" id="expmonth" name="expmonth" >
+
+            <div class="row">
+
+              <div class="col-50">
+
+                <label for="expyear">Exp. Year</label>
+
+                <input type="text" id="expyear" name="expyear" >
+
+              </div>
+
+              <div class="col-50">
+
+                <label for="cvv">CVV</label>
+
+                <input type="text" id="cvv" name="cvv" >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+        </div>
+
+        <label>
+
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+
+        </label>
+        <p> *Make sure to fill out every box before submitting the order or it WILL NOT be placed.</p>
+
+
+
+<button onclick="myFunction()">Submit Order</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Your order has been submitted! You will recieve your merch in around 5 business days."
+  }
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</div>
+</html>
