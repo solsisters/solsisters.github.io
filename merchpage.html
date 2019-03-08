@@ -1,88 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Sol Sisters</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Lato:300|Oxygen" rel="stylesheet">
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Sol Sisters</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300|Oxygen" rel="stylesheet">
 
+      <style>
+      nav {font-family: 'Oxygen', sans-serif;}
+      head {font-family: 'Oxygen', sans-serif;}
+      h2 { font-family:'Oxygen', sans-serif;}
+      h3 { font-family:'Oxygen', sans-serif;}
+      h4 {font-family: 'Lato', sans-serif;}
+      p {font-family: 'Lato', sans-serif;}
+      body {background-color: lightgoldenrodyellow}
+    </style>
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Webmaster TSA <i class="fas fa-sun"></i></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapter <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">About TSA</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="officers.html">Officers</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">CTE <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="curriculum.html">Curriculum</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="staff.html">Staff</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="homepage.html">Design Brief <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href = "overview.html">Overview</a></li>
+                <li><a href="homepage.html">About Sol Sisters</a></li>
+                <li><a href="merchpage.html">Merch</a></li>
+                <li><a href="showspage.html">Tour Dates</a></li>
+                <li><a href="blogpage.html">Message Board</a></li>
+              </ul>
+            </li>
+            <li><a href="references.html">References</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <style>
-    nav {font-family: 'Oxygen', sans-serif;}
-    head {font-family: 'Oxygen', sans-serif;}
-    h2 { font-family:'Oxygen', sans-serif;}
-    h3 { font-family:'Oxygen', sans-serif;}
-    h4 {font-family: 'Lato', sans-serif;}
-    p {font-family: 'Lato', sans-serif;}
-    body {background-color: lightgoldenrodyellow}
-    </style>
-</head>
+    div {display: inline block;}
+  </style>
 
+  <script src="simpleCart.js"></script>
+  <script>
+    simpleCart({
+      checkout: {
+        type: "PayPal" ,
+        email: "you@yours.com"
+      }
+    });
+  </script>
+  <center><h2>Merchandise</h2></center>
 
-<body>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Webmaster TSA <i class="fas fa-sun"></i></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapter <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="index.html">About TSA</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="officers.html">Officers</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CTE <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="curriculum.html">Curriculum</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="staff.html">Staff</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="homepage.html">Design Brief <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href = "overview.html"> Overview</a></li>
-            <li><a href="homepage.html">About Sol Sisters</a></li>
-            <li><a href="merchpage.html">Merch</a></li>
-            <li><a href="showspage.html">Tour Dates</a></li>
-            <li><a href="blogpage.html">Message Board</a></li>
-          </ul>
-        </li>
-        <li><a href="references.html">References</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<style>
-div {display: inline block;}
-    </style>
-    
-<script src="simpleCart.js"></script>
-<script>
-	simpleCart({
-		checkout: {
-			type: "PayPal" ,
-			email: "you@yours.com"
-		}
-	});
-</script>
-<center><h2>Merchandise</h2></center>
-   <center><div class="simpleCart_shelfItem">
+  <div class="simpleCart_shelfItem">
     <br>
 
+<<<<<<< HEAD
       <div class="col-sm-4">
     <img src="images/merch1.jpeg" class="item_thumb" width="300" height="300"/>
     <h3 class="item_name"> Grey Long Sleeved T-Shirt </h3>
@@ -121,17 +123,66 @@ div {display: inline block;}
      <img src="images/merch3.jpeg" class="item_thumb" width = "300" height = "300"/>
     <h3 class="item_name"> Blue Short-Sleeved T-Shirt </h3>
  	<select class="item_size">
+=======
+    <div class="col-sm-4">
+      <img src="images/merch1.jpeg" class="item_thumb" width="200" height="200"/>
+      <h4 class="item_name"> Grey Long Sleeved T-Shirt </h4>
+      <select class="item_size">
         <option value="Small"> Small </option>
         <option value="Medium"> Medium </option>
         <option value="Large"> Large </option>
+      </select>
+      <br>
+      <input type="text" value="1" class="item_Quantity">
+      <span class="item_price">$35.00</span>
+      <a href = "">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+      <br>
+      <br>
+    </div>
+
+
+    <div class="col-sm-4">
+      <img src="images/merch2.jpeg" class="item_thumb" width="200" height="200"/>
+      <h4 class="item_name"> White Long-Sleeved T-Shirt </h4>
+      <select class="item_size">
+        <option value="Small"> Small </option>
+        <option value="Medium"> Medium </option>
+        <option value="Large"> Large </option>
+      </select>
+      <br>
+      <input type="text" value="1" class="item_Quantity">
+      <span class="item_price">$35.00</span>
+      <a href = "" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
+      <br><br>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="images/merch3.jpeg" class="item_thumb" width = "200" height = "200"/>
+      <h4 class="item_name"> Blue Short-Sleeved T-Shirt </h4>
+      <select class="item_size">
+>>>>>>> addc4edf955a122de482f90f6c8be5b18bab3cfe
+        <option value="Small"> Small </option>
+        <option value="Medium"> Medium </option>
+        <option value="Large"> Large </option>
+      </select>
+      <br>
+      <input type="text" value="1" class="item_Quantity">
+      <span class="item_price">$20.00</span>
+      <a href = "" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br>
+      <br>
+  </div>
+
+
+  <div class="col-sm-4">
+    <img src="images/merch5.jpeg" class="item_thumb" width = "200" height = "200"/>
+    <h4 class="item_name"> White Short-Sleeved T-Shirt </h4>
+    <select class="item_size">
+      <option value="Small"> Small </option>
+      <option value="Medium"> Medium </option>
+      <option value="Large"> Large </option>
     </select>
-        <br>
-    <input type="text" value="1" class="item_Quantity">
-    <span class="item_price">$20.00</span>
-    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br>
-        <br>
-          </a>
     <br>
+<<<<<<< HEAD
         <br>
      </div>
      
@@ -159,10 +210,28 @@ div {display: inline block;}
         <option value="Small"> Small </option>
         <option value="Medium"> Medium </option>
         <option value="Large"> Large </option>
+=======
+    <input type="text" value="1" class="item_Quantity">
+    <span class="item_price">$20.00</span>
+    <a href = "" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
+    <br>
+    <br>
+  </div>
+
+
+  <div class="col-sm-4">
+    <img src="images/merch6.jpeg" class="item_thumb" width = "200" height = "200"/>
+    <h4 class="item_name"> Clear Tumblr </h4>
+    <select class="item_size">
+      <option value="Small"> Small </option>
+      <option value="Medium"> Medium </option>
+      <option value="Large"> Large </option>
+>>>>>>> addc4edf955a122de482f90f6c8be5b18bab3cfe
     </select>
-        <br>
+    <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$15.00</span>
+<<<<<<< HEAD
     <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
         <br></a></div>
    
@@ -174,10 +243,25 @@ div {display: inline block;}
         <option value="Small"> Small </option>
         <option value="Medium"> Medium </option>
         <option value="Large"> Large </option>
+=======
+    <a href = "" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
+    <br><br>
+  </div>
+
+
+  <div class="col-sm-4">
+    <img src="images/merch8.jpeg" class="item_thumb" width = "200" height = "200" />
+    <h4 class="item_name"> Blue Drawstring Hoodie </h4>
+    <select class="item_size">
+      <option value="Small"> Small </option>
+      <option value="Medium"> Medium </option>
+      <option value="Large"> Large </option>
+>>>>>>> addc4edf955a122de482f90f6c8be5b18bab3cfe
     </select>
-        <br>
+    <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$40.00</span>
+<<<<<<< HEAD
         <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br></a></div>
         
         
@@ -189,12 +273,27 @@ div {display: inline block;}
         <option value="Small"> Small </option>
         <option value="Medium"> Medium </option>
         <option value="Large"> Large </option>
+=======
+    <a href ="" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br></a>
+    <br>
+  </div>
+
+  <div class="col-sm-4">
+    <img src="images/merch9.jpeg" class="item_thumb" width = "200" height = "200"/>
+    <h4 class="item_name">Grey Pullover Sweater </h4>
+    <select class="item_size">
+      <option value="Small"> Small </option>
+      <option value="Medium"> Medium </option>
+      <option value="Large"> Large </option>
+>>>>>>> addc4edf955a122de482f90f6c8be5b18bab3cfe
     </select>
-        <br>
+    <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$40.00</span>
-            <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br></a></div>
+    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br>
+  </div>
 
+<<<<<<< HEAD
         
       <div class="col-sm-4">
          <img src="images/merch11.jpeg" class="item_thumb" width = "300" height = "300"/>
@@ -202,10 +301,20 @@ div {display: inline block;}
  	<select class="item_size">
         <option value="Small"> Small </option>
         <option value="Large"> Large </option>
+=======
+
+  <div class="col-sm-4">
+    <img src="images/merch11.jpeg" class="item_thumb" width = "200" height = "200"/>
+    <h4 class="item_name"> Blue Decorative Journal </h4>
+    <select class="item_size">
+      <option value="Small"> Small </option>
+      <option value="Large"> Large </option>
+>>>>>>> addc4edf955a122de482f90f6c8be5b18bab3cfe
     </select>
-        <br>
+    <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$15.00</span>
+<<<<<<< HEAD
                   <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a></a></div>            
         
     <div class="col-sm-4">
@@ -216,23 +325,34 @@ div {display: inline block;}
         <option value="Small"> Small </option>
         <option value="Medium"> Medium </option>
         <option value="Large"> Large </option>
+=======
+    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a></a>
+  </div>
+
+  <div class="col-sm-4">
+    <img src="images/merch10.jpeg" class="item_thumb" width = "200" height = "200"/>
+
+    <h4 class="item_name"> White Pencil Case </h4>
+    <select class="item_size">
+      <option value="Small"> Small </option>
+      <option value="Medium"> Medium </option>
+      <option value="Large"> Large </option>
+>>>>>>> addc4edf955a122de482f90f6c8be5b18bab3cfe
     </select>
-        <br>
+    <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$10.00</span>
-                  <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br></a></div>
+    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br></a>
+  </div>
 
-       </div>
-
-
-
+</div>
 
 <center><a href = "overview.html"  >Overview</a> |
-<a href = "homepage.html"  role = "button" aria-pressed = "true" >About Sol Sisters </a>|<a  href = "merchpage.html"  aria-pressed = "true" > Merch</a>
- |<a href = "showspage.html"  role = "button" aria-pressed = "true" > Tour Dates</a>|<a href = "blogpage.html"  role = "button" aria-pressed = "true" >Message Board</a> <br>
+  <a href = "homepage.html"  role = "button" aria-pressed = "true" >About Sol Sisters </a>|<a  href = "merchpage.html"  aria-pressed = "true" > Merch</a>
+  |<a href = "showspage.html"  role = "button" aria-pressed = "true" > Tour Dates</a>|<a href = "blogpage.html"  role = "button" aria-pressed = "true" >Message Board</a> <br>
 </center>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
 </html>
