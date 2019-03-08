@@ -11,8 +11,9 @@
     <style>
     nav {font-family: 'Oxygen', sans-serif;}
     head {font-family: 'Oxygen', sans-serif;}
+    h2 { font-family:'Oxygen', sans-serif;}
     h3 { font-family:'Oxygen', sans-serif;}
-    hw {font-family: 'Lato', sans-serif;}
+    h4 {font-family: 'Lato', sans-serif;}
     p {font-family: 'Lato', sans-serif;}
     body {background-color: lightgoldenrodyellow}
     </style>
@@ -65,7 +66,10 @@
     </div>
   </div>
 </nav>
-
+<style>
+div {display: inline block;}
+    </style>
+    
 <script src="simpleCart.js"></script>
 <script>
 	simpleCart({
@@ -75,11 +79,12 @@
 		}
 	});
 </script>
-
-<div class="simpleCart_shelfItem">
+<center><h2>Merchandise</h2></center>
+   <center><div class="simpleCart_shelfItem">
     <br>
-    <center>
-    <img src="images/merch1.jpeg" class="item_thumb" />
+
+      <div class="col-sm-4">
+    <img src="images/merch1.jpeg" class="item_thumb" width="400" height="400"/>
     <h3 class="item_name"> Grey Long Sleeved T-Shirt </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -87,13 +92,16 @@
         <option value="Large"> Large </option>
     </select>
         <br>
-
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$35.00</span>
     <a class="item_add" href="javascript:;"> 
         <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br>
-
-    <img src="images/merch2.jpeg" class="item_thumb" />
+          </a>
+     </div>
+     
+     
+      <div class="col-sm-4">
+    <img src="images/merch2.jpeg" class="item_thumb" width="400" height="400"/>
     <h3 class="item_name"> White Long-Sleeved T-Shirt </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -101,12 +109,16 @@
         <option value="Large"> Large </option>
     </select>
         <br>
-
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$35.00</span>
     <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br>
         <br>
-     <img src="images/merch3.jpeg" class="item_thumb" />
+          </a>
+     </div>
+     
+     
+          <div class="col-sm-4">
+     <img src="images/merch3.jpeg" class="item_thumb" width = "400" height = "400"/>
     <h3 class="item_name"> Blue Short-Sleeved T-Shirt </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -114,12 +126,18 @@
         <option value="Large"> Large </option>
     </select>
         <br>
-
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$20.00</span>
+    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br>
+        <br>
+          </a>
     <br>
         <br>
-         <img src="images/merch5.jpeg" class="item_thumb" />
+     </div>
+     
+     
+          <div class="col-sm-4">
+         <img src="images/merch5.jpeg" class="item_thumb" width = "400" height = "400"/>
     <h3 class="item_name"> White Short-Sleeved T-Shirt </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -131,8 +149,11 @@
     <span class="item_price">$20.00</span>
     <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
           <br>
-        <br>
-         <img src="images/merch6.jpeg" class="item_thumb" />
+        <br></a></div>
+        
+        
+        <div class="col-sm-4">
+         <img src="images/merch6.jpeg" class="item_thumb" width = "400" height = "400"/>
     <h3 class="item_name"> Clear Tumblr </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -143,22 +164,11 @@
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$15.00</span>
     <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
-              <br>
-        <br>
-         <img src="images/merch7.jpeg" class="item_thumb" />
-    <h3 class="item_name"> White Metal Water Bottle </h3>
- 	<select class="item_size">
-        <option value="Small"> Small </option>
-        <option value="Medium"> Medium </option>
-        <option value="Large"> Large </option>
-    </select>
-        <br>
-    <input type="text" value="1" class="item_Quantity">
-    <span class="item_price">$15.00</span>
-    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
-              <br>
-        <br>
-         <img src="images/merch8.jpeg" class="item_thumb" />
+        <br></a></div>
+   
+        
+    <div class="col-sm-4">
+         <img src="images/merch8.jpeg" class="item_thumb" width = "400" height = "400" />
     <h3 class="item_name"> Blue Drawstring Hoodie </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -168,8 +178,12 @@
         <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$40.00</span>
-    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br>
-         <img src="images/merch9.jpeg" class="item_thumb" />
+        <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br></a></div>
+        
+        
+    <div class="row text-center">
+      <div class="col-sm-4">
+         <img src="images/merch9.jpeg" class="item_thumb" width = "400" height = "400"/>
     <h3 class="item_name"> Grey Pullover Sweater </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -179,8 +193,24 @@
         <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$40.00</span>
-    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br>
-         <img src="images/merch10.jpeg" class="item_thumb" />
+            <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br></a></div>
+
+        
+      <div class="col-sm-4">
+         <img src="images/merch11.jpeg" class="item_thumb" width = "400" height = "400"/>
+    <h3 class="item_name"> Blue Decorative Journal </h3>
+ 	<select class="item_size">
+        <option value="Small"> Small </option>
+        <option value="Large"> Large </option>
+    </select>
+        <br>
+    <input type="text" value="1" class="item_Quantity">
+    <span class="item_price">$15.00</span>
+                  <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a></a></div>            
+        
+    <div class="col-sm-4">
+         <img src="images/merch10.jpeg" class="item_thumb" width = "400" height = "400"/>
+        
     <h3 class="item_name"> White Pencil Case </h3>
  	<select class="item_size">
         <option value="Small"> Small </option>
@@ -190,42 +220,16 @@
         <br>
     <input type="text" value="1" class="item_Quantity">
     <span class="item_price">$10.00</span>
-    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br>
-         <img src="images/merch11.jpeg" class="item_thumb" />
-    <h3 class="item_name"> Blue Decorative Journal </h3>
- 	<select class="item_size">
-        <option value="Small"> Small </option>
-        <option value="Medium"> Medium </option>
-        <option value="Large"> Large </option>
-    </select>
-        <br>
-    <input type="text" value="1" class="item_Quantity">
-    <span class="item_price">$15.00</span>
-    <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a>
+                  <a class="item_add" href="javascript:;"> <a href = "checkout.html" >Add to Cart<i class="fas fa-shopping-cart"></i></a><br><br></a></div>
 
-    </center>
-</div>
+       </div>
 
-<script src = "simpleCart.js"></script>
-<script>
-    simpleCart({
-	cartColumns: [
-		{ attr: "name" , label: "Name" } ,
-		{ attr: "price" , label: "Price", view: 'currency' } ,
-		{ view: "decrement" , label: false , text: "-" } ,
-		{ attr: "quantity" , label: "Qty" } ,
-		{ view: "increment" , label: false , text: "+" } ,
-		{ attr: "total" , label: "SubTotal", view: 'currency' } ,
-		{ view: "remove" , text: "Remove" , label: false }
-	]
-});
-    </script>
 
-    <br><center><a href = "overview.html"  >Overview</a> |
+
+
+<center><a href = "overview.html"  >Overview</a> |
 <a href = "homepage.html"  role = "button" aria-pressed = "true" >About Sol Sisters </a>|<a  href = "merchpage.html"  aria-pressed = "true" > Merch</a>
- |<a href = "showspage.html"  role = "button" aria-pressed = "true" > Tour Dates</a> 
-|
-<a href = "blogpage.html"  role = "button" aria-pressed = "true" >Message Board</a> <br>
+ |<a href = "showspage.html"  role = "button" aria-pressed = "true" > Tour Dates</a>|<a href = "blogpage.html"  role = "button" aria-pressed = "true" >Message Board</a> <br>
 </center>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
